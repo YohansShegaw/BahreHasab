@@ -1,12 +1,13 @@
 .list {
   background-color: white;
   border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.1);
   width: 500px;
   margin: 0 auto;
   margin-top: 5px;
   padding: 5px;
   padding-left: 20px;
+  color: #393e46;
 }
 .searchComponent {
   margin: 20px auto;
@@ -15,11 +16,13 @@
   margin-top: 40px;
 }
 .input {
-  border: none;
-  border-bottom: 1px solid #e3e4dc;
+  border: 1px solid #e3e4dc;
+  /* border-bottom: 2px solid #e3e4dc; */
+  border-radius: 10px;
   padding: 10px 20px;
   width: 100%;
   outline: none;
   font-size: 16px;
   color: #393e46;
+  box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
