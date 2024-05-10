@@ -6,17 +6,40 @@
   margin: 0 auto;
   margin-top: 5px;
   padding: 5px;
+  padding-left: 5px;
+  color: #393e46;
+  samuel kebede
+}
+.list1 {
+  /* background-color: white;
+  border-radius: 8px;
+  box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.1);
+  width: 480px;
+  margin: 0 auto;
+  margin-top: 5px;
+  padding: 5px;
+  padding-left: 5px;
+  color: #393e46; */
+}
+.list2 {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.1);
+  width: 460px;
+  margin: 0 auto;
+  margin-top: 5px;
+  padding: 5px;
   padding-left: 20px;
   color: #393e46;
 }
 .searchComponent {
   margin: 20px auto;
-  width: 300px;
+  width: 400px;
   position: relative;
   margin-top: 40px;
 }
 .input {
-  border: 1px solid #e3e4dc;
+  border: none;
   /* border-bottom: 2px solid #e3e4dc; */
   border-radius: 10px;
   padding: 10px 20px;
