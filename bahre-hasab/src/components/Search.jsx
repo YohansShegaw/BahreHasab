@@ -145,7 +145,7 @@ export default function Search({ year, setYear }) {
       <div className={styles.searchComponent}>
         {" "}
         <input
-          classNamelassName={styles.input}
+          className={styles.input}
           type="number"
           onChange={(e) => setYear(e.target.value)}
           value={year}
