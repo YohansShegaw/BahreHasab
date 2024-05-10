@@ -145,55 +145,55 @@ export default function Search({ year, setYear }) {
       <div className={styles.searchComponent}>
         {" "}
         <input
-          className={styles.input}
+          classNamelassName={styles.input}
           type="number"
           onChange={(e) => setYear(e.target.value)}
           value={year}
         />
       </div>
-      <div className={styles.list1}>
-        <div className={styles.list2}>
+      <div className={styles.list}>
+        <div className={styles.list}>
           <h3>መስከረም 1 </h3>
           <p>{day} ይውላል ፡፡</p>
         </div>
 
-        <div className={styles.list2}>
+        <div className={styles.list}>
           <h3>ወንበር </h3>
           <p>{ወንበር}</p>
         </div>
 
-        <div className={styles.list2}>
+        <div className={styles.list}>
           <h3>መደብ </h3>
           <p>{መደብ}</p>
         </div>
 
-        <div className={styles.list2}>
+        <div className={styles.list}>
           <h3>አበቅቴ </h3>
           <p>{አበቅቴ}</p>
         </div>
 
-        <div className={styles.list2}>
+        <div className={styles.list}>
           <h3>መጥቅዕ </h3>
           <p>{መጥቅዕ === 0 ? 30 : መጥቅዕ}</p>
         </div>
 
-        <div className={styles.list2}>
+        <div className={styles.list}>
           <h3>በዓለ መጥቅዕ </h3>
           <p>{መጥቅዕ <= 14 ? "ጥቅምት" : "መስከረም"}</p>
         </div>
 
-        <div className={styles.list2}>
+        <div className={styles.list}>
           {" "}
           <h3>ጥንተ ዮን </h3>
           <p>{yonday}</p>
         </div>
 
-        <div className={styles.list2}>
+        <div className={styles.list}>
           <h3>መባጃ ሃመር </h3>
           <p>{መባጃ_ሃመር === 0 ? 30 : መባጃ_ሃመር}</p>
         </div>
 
-        <div className={styles.list2}>
+        <div className={styles.list}>
           <h3>ነነዌ </h3>
           <p>
             {መጥቅዕ <= 14
@@ -202,54 +202,54 @@ export default function Search({ year, setYear }) {
           </p>
         </div>
 
-        <div className={styles.list2}>
+        <div className={styles.list}>
           <h3>ዐቢይ ጾም </h3>
           <p>{abiyTom}</p>
         </div>
 
-        <div className={styles.list2}>
+        <div className={styles.list}>
           <h3>ደብረ ዘይት </h3>
           <p>{debreZeyt === 0 ? 30 : debreZeyt}</p>
         </div>
 
-        <div className={styles.list2}>
+        <div className={styles.list}>
           <h3>ሆሳዕና </h3>
           <p>{hosaena === 0 ? 30 : hosaena}</p>
         </div>
 
-        <div className={styles.list2}>
+        <div className={styles.list}>
           <h3>ስቅለት </h3>
           <p>{sqlet === 0 ? 30 : sqlet}</p>
         </div>
 
-        <div className={styles.list2}>
+        <div className={styles.list}>
           {" "}
           <h3>ትንሳዔ </h3>
           <p>{tnsae === 0 ? 30 : tnsae}</p>
         </div>
 
-        <div className={styles.list2}>
+        <div className={styles.list}>
           <h3>ርክበ ካህን </h3>
           <p>{rkbeKahn === 0 ? 30 : rkbeKahn}</p>
         </div>
 
-        <div className={styles.list2}>
+        <div className={styles.list}>
           <h3>ዕርገት </h3>
           <p>{erget === 0 ? 30 : erget}</p>
         </div>
 
-        <div className={styles.list2}>
+        <div className={styles.list}>
           <h3>ጲራቅሊጦስ </h3>
           <p>{piraqlitos === 0 ? 30 : piraqlitos}</p>
         </div>
 
-        <div className={styles.list2}>
+        <div className={styles.list}>
           {" "}
           <h3>ጾመ ሃዋሪያት </h3>
           <p>{tsomeHawariyat === 0 ? 30 : tsomeHawariyat}</p>
         </div>
 
-        <div className={styles.list2}>
+        <div className={styles.list}>
           <h3>ጾመ ድህነት </h3>
           <p>{tsomeDhnet === 0 ? 30 : tsomeDhnet}</p>
         </div>
